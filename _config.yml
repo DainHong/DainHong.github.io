@@ -25,7 +25,7 @@ url                      : # the base hostname & protocol for your site e.g. "ht
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "https://dainhong.github.io/"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "/assets/images/flamingo.png"
+logo                     : "/images/flamingo.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -95,7 +95,7 @@ analytics:
 # Site Author
 author:
   name             : "홍다인"
-  avatar           : "/assets/images/bluebird.png"
+  avatar           : "/images/bluebird.png"
   bio              : "HAFS 16기, INHO PARK 제자"
   location         : "대한민국, 서울"
   email            : "21-20732@hafs.hs.kr"
