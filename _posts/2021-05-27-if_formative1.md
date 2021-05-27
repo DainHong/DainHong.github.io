@@ -20,7 +20,6 @@ scanf("%d,%d,%d",&year,&month,&day);
 result=(year-month+day)%10;
 if(result==0)
 printf("당신의 사주는 대박입니다.\n");
-
 else
 printf("당신의 사주는 그럭저럭입니다.\n");
 return 0;
@@ -60,11 +59,12 @@ else if(month==4||month==6||month==9||month==11)
 printf("30일");
 else
 {
-if((year%4==0 && year%100!=0) || year%400==0)
-printf("29일");
-else
-printf("28일");
+ if((year%4==0 && year%100!=0) || year%400==0)
+ printf("29일");
+ else
+ printf("28일");
 }
+
 printf("입니다.\n");
 return 0;
 }~~~
