@@ -26,11 +26,11 @@ return 0;
 }~~~ 
 
 ### 02. 3개의 터널 통과
-![tunnul](/images/tunnel.jpg)
+![tunnel](/images/tunnel.jpg)
 ~~~c
 #include <stdio.h>
 int main(void)
-{ int tunnul_1, tunnul_2, tunnul_3;
+{int tunnul_1, tunnul_2, tunnul_3;
 printf("세 터널의 높이를 차례대로 입력하세요 : ");
 scanf("%d,%d,%d",&tunnul_1,&tunnul_2,&tunnul_3);
 if(tunnul_1<=170)
@@ -45,7 +45,7 @@ return 0;
 }~~~ 
 
 ### 03. 이 달은 며칠까지 있을까?
-![callenderl](/images/callender.jpg)
+![callender](/images/callender.jpg)
 ~~~c
 #include <stdio.h>
 int main(void)
