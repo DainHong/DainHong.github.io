@@ -11,6 +11,7 @@ categories: "형성평가"
 ### 01. 사주보기
 ![saju](/images/saju.jpg)
 ~~~c
+
 #include <stdio.h>
  
 int main(void) {
@@ -29,6 +30,7 @@ int main(void) {
 ### 02. 3개의 터널 통과
 ![tunnel](/images/tunnel.jpg)
 ~~~c
+
 #include <stdio.h>
  
 int main(void) {
@@ -58,6 +60,7 @@ int main(void) {
 ### 03. 이 달은 며칠까지 있을까?
 ![callender](/images/callender.jpg)
 ~~~c
+
 #include <stdio.h>
  
 int main(void) {
