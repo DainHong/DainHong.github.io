@@ -117,7 +117,7 @@ int main(void) {
 }
 
 ### 05. 도어락 문제
-![doorlock](/images/doorlock.jpg)
+![doorlock](/images/doorlock.png)
 
 ~~~c
 #include <stdio.h>
@@ -175,7 +175,7 @@ printf("지문 입력: ");
 }
 
 ### 06. 가위바위보
-![rockscissorpaper](/images/rockscissorpaper.jpg)
+![rockscissorpaper](/images/rockscissorpaper.png)
 
 ~~~c
 #include <stdio.h>
