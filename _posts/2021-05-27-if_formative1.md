@@ -174,3 +174,57 @@ printf("지문 입력: ");
  return 0;
 }
 
+### 06. 가위바위보
+![rockscissorpaper](/images/rockscissorpaper.jpg)
+
+~~~c
+#include <stdio.h>
+
+int main(void) {
+  
+  char rsp, com;
+  com = 's';
+  printf("사용자 입력(가위:s, 바위:r, 보:p): ");
+  scanf( "%c", &rsp);
+ 
+
+  if(rsp == com){
+  printf("비겼다");
+  }
+
+  else if((rsp =='r' && com == 's') || (rsp =='p' && com == 'r') || (rsp =='s' && com == 'p')){
+  printf("이겼다");
+  }
+
+  else{
+  printf("졌다");  
+  }
+  return 0;
+}
+
+### 07. 용돈으로 책 구입하기
+![용돈으로 책 구입하기](images/용돈으로 책 구입하기.jpg)
+
+~~~c
+#include <stdio.h>
+
+int main(void) {
+  int hour, min;
+  printf("시간과 분을 입력하세요 : ");
+  scanf("%d %d", &hour,&min);
+  printf("입력한 시간의 30분 전 시간은 ");
+  if(min>=30){
+        printf("%d시 %d분", hour, min-30);
+  }
+  else{
+    if(hour>0){
+     printf("%d시 %d분", hour-1, min+30);
+    }
+    
+    else{
+     printf("%d시 %d분", hour+23, min+30);
+    }
+  }
+  
+
+}
